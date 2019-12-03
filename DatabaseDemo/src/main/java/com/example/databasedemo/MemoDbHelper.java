@@ -29,7 +29,7 @@ public class MemoDbHelper extends SQLiteOpenHelper {
         return sInstance;
     }
 
-    public MemoDbHelper(@Nullable Context context) {
+    private MemoDbHelper(@Nullable Context context) {
         super(context, DB_NAME, null, DB_VERSION);
     }
 
